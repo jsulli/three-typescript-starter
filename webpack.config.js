@@ -53,10 +53,7 @@ module.exports = {
                 exclude: /[\/\\](node_modules|bower_components|public)[\/\\]/,
                 use: [
                     {
-                        loader: 'style-loader',
-                        options: {
-                            sourceMap: true
-                        }
+                        loader: 'style-loader'
                     },
                     {
                         loader: 'css-loader',
