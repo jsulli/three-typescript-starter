@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --progress --colors",
-    "start": "webpack && npm run dev"
+    "dev": "webpack-dev-server",
+    "start": "webpack serve && npm run dev"
   },
   "repository": {
     "type": "git",
@@ -21,20 +21,15 @@
   "homepage": "https://github.com/pinqy520/three-typescript-starter#readme",
   "devDependencies": {
     "awesome-typescript-loader": "latest",
-    "browser-sync": "latest",
-    "browser-sync-webpack-plugin": "latest",
     "css-loader": "latest",
     "html-webpack-plugin": "latest",
-    "json-loader": "latest",
-    "progress-bar-webpack-plugin": "latest",
     "style-loader": "latest",
     "typescript": "latest",
     "webpack": "latest",
-    "webpack-cli": "^3.0.8",
+    "webpack-cli": "latest",
     "webpack-dev-server": "latest"
   },
   "dependencies": {
-    "@types/three": "latest",
     "three": "latest"
   }
 }
